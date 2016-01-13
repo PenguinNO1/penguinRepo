@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd"
+       default-lazy-init="true">
+
+    <!-- channel 数据库 数据源配置, 使用Tomcat JDBC连接池 -->
+    <bean id="marketDataSource" class="org.apache.tomcat.jdbc.pool.DataSource" destroy-method="close">
+        <!-- Connection Info -->
+        <property name="driverClassName" value="${mysql.jdbc.driver.market}" />
+        <property name="url" value="${mysql.jdbc.url.market}" />
+        <property name="username" value="${mysql.jdbc.user.market}" />
+        <property name="password" value="${mysql.jdbc.password.market}" />
+        <!-- Connection Pooling Info -->
+        <property name="maxActive" value="${mysql.maxActive}" />
+        <property name="minIdle" value="${mysql.minIdle}" />
+        <property name="maxIdle" value="${mysql.maxIdle}" />
+        <property name="maxWait" value="${mysql.maxWait}"/>
+        <property name="defaultAutoCommit" value="false" />
+        <!-- 连接超时 -->
+        <property name="timeBetweenEvictionRunsMillis" value="30000" />
+        <property name="minEvictableIdleTimeMillis" value="30000" />
+        <!-- validation -->
+        <property name="testWhileIdle" value="true" />
+        <property name="testOnBorrow" value="true" />
+        <property name="testOnReturn" value="false" />
+        <property name="validationQuery" value="SELECT 1" />
+    </bean>
+
+    <bean id="marketSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="marketDataSource"/>
+        <property name="typeAliasesPackage" value="com.nfsq.xs.rebates.dal.project.domain"/>
+        <property name="plugins">
+            <array>
+                <ref bean="mysqlPaginationInterceptor" />
+            </array>
+        </property>
+    </bean>
+
+    <bean id="marketTansactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="marketDataSource"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.nfsq.xs.rebates.dal.project.mapper"/>
+        <property name="sqlSessionFactoryBeanName" value="marketSqlSessionFactory"/>
+    </bean>
+
+</beans>
