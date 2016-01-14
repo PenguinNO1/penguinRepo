@@ -19,7 +19,7 @@
             <mvc:mapping path="/**" />
             <mvc:exclude-mapping path="/login.htm"/>
             <mvc:exclude-mapping path="/api/**" />
-            <bean class="com.nfsq.xs.rebates.web.interceptor.AuthInterceptor" />
+            <bean class="com.lpj.penguin.web.interceptor.AuthInterceptor" />
         </mvc:interceptor>
 
     </mvc:interceptors>

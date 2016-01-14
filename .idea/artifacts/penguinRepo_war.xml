@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="penguinRepo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="penguinRepo.war">
+      <element id="artifact" artifact-name="penguinRepo:war exploded" />
+    </root>
+  </artifact>
+</component>

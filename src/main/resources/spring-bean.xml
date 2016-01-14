@@ -4,14 +4,14 @@
        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd"
        default-lazy-init="true">
 
-    <bean id="springUtils" lazy-init="false" class="com.nfsq.xs.rebates.common.SpringUtil" />
+    <bean id="springUtils" lazy-init="false" class="com.lpj.penguin.common.SpringUtil" />
 
     <!-- mybatis 分页拦截器 -->
-    <bean id="oraclePaginationInterceptor" class="com.nfsq.xs.rebates.common.mybatis.interceptor.PaginationInterceptor">
+    <bean id="oraclePaginationInterceptor" class="com.lpj.penguin.common.mybatis.interceptor.PaginationInterceptor">
         <property name="dialectName" value="oracle"/>
     </bean>
 
-    <bean id="mysqlPaginationInterceptor" class="com.nfsq.xs.rebates.common.mybatis.interceptor.PaginationInterceptor">
+    <bean id="mysqlPaginationInterceptor" class="com.lpj.penguin.common.mybatis.interceptor.PaginationInterceptor">
         <property name="dialectName" value="mysql"/>
     </bean>
 

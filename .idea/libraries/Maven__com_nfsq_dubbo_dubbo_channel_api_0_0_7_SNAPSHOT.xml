@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.nfsq.dubbo:dubbo-channel-api:0.0.7-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/dubbo/dubbo-channel-api/0.0.7-SNAPSHOT/dubbo-channel-api-0.0.7-20151211.065603-38.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/dubbo/dubbo-channel-api/0.0.7-SNAPSHOT/dubbo-channel-api-0.0.7-20151211.065603-38-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/dubbo/dubbo-channel-api/0.0.7-SNAPSHOT/dubbo-channel-api-0.0.7-20151211.065603-38-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

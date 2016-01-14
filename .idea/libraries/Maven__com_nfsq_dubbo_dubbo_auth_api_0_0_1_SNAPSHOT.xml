@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.nfsq.dubbo:dubbo-auth-api:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/dubbo/dubbo-auth-api/0.0.1-SNAPSHOT/dubbo-auth-api-0.0.1-20151112.054503-22.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/dubbo/dubbo-auth-api/0.0.1-SNAPSHOT/dubbo-auth-api-0.0.1-20151112.054503-22-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/dubbo/dubbo-auth-api/0.0.1-SNAPSHOT/dubbo-auth-api-0.0.1-20151112.054503-22-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

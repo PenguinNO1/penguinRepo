@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.nfsq.framework:nfsq-framework:0.0.28-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/framework/nfsq-framework/0.0.28-SNAPSHOT/nfsq-framework-0.0.28-20151210.072413-18.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/framework/nfsq-framework/0.0.28-SNAPSHOT/nfsq-framework-0.0.28-20151210.072413-18-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/framework/nfsq-framework/0.0.28-SNAPSHOT/nfsq-framework-0.0.28-20151210.072413-18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

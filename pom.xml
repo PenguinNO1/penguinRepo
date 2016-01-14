@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.nfsq.xs</groupId>
-    <artifactId>nfsq-store-rebates</artifactId>
+    <artifactId>penguinRepo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>nfsq-store-rebates</name>
+    <name>penguinRepo</name>
 
     <distributionManagement>
         <repository>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.nfsq.sso.sdk:nfsq-sso-sdk:0.0.9-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/sso/sdk/nfsq-sso-sdk/0.0.9-SNAPSHOT/nfsq-sso-sdk-0.0.9-20160105.063630-24.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/sso/sdk/nfsq-sso-sdk/0.0.9-SNAPSHOT/nfsq-sso-sdk-0.0.9-20160105.063630-24-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/sso/sdk/nfsq-sso-sdk/0.0.9-SNAPSHOT/nfsq-sso-sdk-0.0.9-20160105.063630-24-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
