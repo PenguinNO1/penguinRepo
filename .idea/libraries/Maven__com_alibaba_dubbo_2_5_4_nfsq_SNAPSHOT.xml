@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.alibaba:dubbo:2.5.4-nfsq-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.4-nfsq-SNAPSHOT/dubbo-2.5.4-nfsq-20150720.074734-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.4-nfsq-SNAPSHOT/dubbo-2.5.4-nfsq-20150720.074734-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.4-nfsq-SNAPSHOT/dubbo-2.5.4-nfsq-20150720.074734-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

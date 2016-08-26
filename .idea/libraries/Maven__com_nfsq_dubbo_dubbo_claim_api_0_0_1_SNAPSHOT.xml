@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.nfsq.dubbo:dubbo-claim-api:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/dubbo/dubbo-claim-api/0.0.1-SNAPSHOT/dubbo-claim-api-0.0.1-20151230.084603-48.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/dubbo/dubbo-claim-api/0.0.1-SNAPSHOT/dubbo-claim-api-0.0.1-20151230.084603-48-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nfsq/dubbo/dubbo-claim-api/0.0.1-SNAPSHOT/dubbo-claim-api-0.0.1-20151230.084603-48-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
